@@ -25,8 +25,7 @@ class Damier():
         posx = event.x // 40
         posy = event.y // 40
         print(event.x, event.y)
-        print(posx, posy)
-        self.can.create_oval(posx*40,posy*40,x+20,y+20,fill='white')       
+        print(posx, posy)       
     
 
 fen1 = Tk()
